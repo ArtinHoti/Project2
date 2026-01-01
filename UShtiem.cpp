@@ -32,13 +32,8 @@ int main() {
 
 	cout << search(arr, m);
 	
-
-	
-
-
-
-
 }
+
 
 
 
