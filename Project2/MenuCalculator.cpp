@@ -2,11 +2,18 @@
 using namespace std;
 
 int main() {
-    int number;
-    int sum = 0;
-    int again;
-    label_1:
-    cout << "Enter positive numbers (0 to stop): " << endl;
+    int choice;
+    double a, b;
+
+    do {
+        cout << "\n--- MENU CALCULATOR ---\n";
+        cout << "1. Add (+)\n";
+        cout << "2. Subtract (-)\n";
+        cout << "3. Multiply (*)\n";
+        cout << "4. Divide (/)\n";
+        cout << "0. Exit\n";
+        cout << "Choose: ";
+        cin >> choice;
 
         if (choice >= 1 && choice <= 4) {
             cout << "Enter two numbers: ";
@@ -36,14 +43,4 @@ int main() {
             cout << "Invalid choice\n";
         }
 
-    cout << "Sum of entered numbers is: " << sum << endl;
-    cout << "If u want to do it again type 1 if not type 0";cin >> again;
-    if(again == 1){
-        goto label_1;
-    }else{
-        return 0 ;
-    }
     } while (choice != 0);
-
-    return 0;
-}
