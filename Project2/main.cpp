@@ -7,7 +7,7 @@ int main() {
 
     cout << "Enter positive numbers (0 to stop): " << endl;
 
-    cin >> number;  
+    cin >> number;
 
     while (number != 0) {
         if (number > 0) {
