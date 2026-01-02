@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MenuCalculator.cpp">
+    <ClCompile Include="shto.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
